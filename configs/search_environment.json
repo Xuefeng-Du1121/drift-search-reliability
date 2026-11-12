@@ -1,0 +1,52 @@
+{
+  "environment": {
+    "region_size_km": 40.0,
+    "n_agents": 6,
+    "n_targets": 1,
+    "max_targets": 1,
+    "episode_steps": 360,
+    "dt_seconds": 20.0,
+    "max_speed_mps": 20.0,
+    "sensing_radius_km": 0.5,
+    "coverage_grid_size": 24,
+    "base_detection_probability": 0.85,
+    "false_positive_rate": 0.12,
+    "fog_level": 0.25,
+    "sea_state": 0.3,
+    "packet_drop_probability": 0.1,
+    "communication_range_km": 15.0,
+    "survival_tau_hours": 2.5,
+    "detection_reward": 10.0,
+    "energy_penalty": 0.002,
+    "max_detection_candidates": 3
+  },
+  "action_headings_degrees": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "plan_library": {
+    "count": 16,
+    "focus_offset_km": 8.0,
+    "focus_width_km": 12.0,
+    "geometric_only": true,
+    "full_scan_rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "central_scan_width_km": 20.0,
+    "focus_angles": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ]
+  }
+}

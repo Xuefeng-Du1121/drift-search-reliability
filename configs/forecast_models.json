@@ -1,0 +1,6 @@
+{
+  "seed": 20260907,
+  "samples": 32,
+  "neighbors": 32,
+  "covariance_floor_km2": 0.01
+}
